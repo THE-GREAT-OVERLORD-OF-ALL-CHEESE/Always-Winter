@@ -22,6 +22,8 @@ public class AlwaysWinter : VTOLMOD
         base.ModLoaded();
     }
 
+    //my unsecsessful attempt to make akutan snowy also
+    /*
     public void SceneLoaded(VTOLScenes scene)
     {
         switch (scene)
@@ -58,5 +60,5 @@ public class AlwaysWinter : VTOLMOD
                 arcticMaterial = mapGenerator.biomeProfiles[(int)MapGenBiome.Biomes.Arctic].terrainMaterial;
                 break;
         }
-    }
+    }*/
 }
